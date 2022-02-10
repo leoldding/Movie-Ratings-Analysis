@@ -6,15 +6,15 @@ The final product / analysis is contained within "Capstone Project.pdf" and all 
 
 Dataset:
 Contains 400 movies and 1097 individuals.
-Row 1: Movie Titles and Questions
-Row 2 - 1098: Participant Responses
+- Row 1: Movie Titles and Questions
+- Row 2 - 1098: Participant Responses
 
-Column 1 - 400: Movies Ratings (0-4)
-Column 401 - 420: Questions related to Sensation Seeking Behaviors (1-5)
-Column 421 - 464: Questions related to Personality (1-5)
-Column 465 - 474: Questions related to Movie Experiences (1-5)
-Column 475: Gender Identity (1 = female, 2 = male, 3 = self-described)
-Column 476: Only Child (0 = no, 1 = yes, -1 = no response)
+- Column 1 - 400: Movies Ratings (0-4)
+- Column 401 - 420: Questions related to Sensation Seeking Behaviors (1-5)
+- Column 421 - 464: Questions related to Personality (1-5)
+- Column 465 - 474: Questions related to Movie Experiences (1-5)
+- Column 475: Gender Identity (1 = female, 2 = male, 3 = self-described)
+- Column 476: Only Child (0 = no, 1 = yes, -1 = no response)
 
 Students were asked to respond to the ten questions listed below:
 
