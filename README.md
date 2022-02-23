@@ -1,23 +1,29 @@
 # Movie-Ratings-Analysis
 Introduction to Data Science Course Capstone Project
 
-This project was the capstone project for the Introduction to Data Science course at NYU taught by Professor Pascal Wallisch in the fall of 2021. 
-The final product / analysis is contained within "Capstone Project.pdf" and all of the code is found within "capstone.py".
+## Work
+The final report can be found in 'Movie Ratings Analysis Report.pdf'.
+The code used for analysis can be found in 'movieRatingsAnalysis.py'.
 
-Dataset:
-Contains 400 movies and 1097 individuals.
-- Row 1: Movie Titles and Questions
-- Row 2 - 1098: Participant Responses
+## Goal
+The goal of this project was to analyze the impact of different weighted characteristics on the enjoyment of movies.
 
-- Column 1 - 400: Movies Ratings (0-4)
-- Column 401 - 420: Questions related to Sensation Seeking Behaviors (1-5)
-- Column 421 - 464: Questions related to Personality (1-5)
-- Column 465 - 474: Questions related to Movie Experiences (1-5)
-- Column 475: Gender Identity (1 = female, 2 = male, 3 = self-described)
-- Column 476: Only Child (0 = no, 1 = yes, -1 = no response)
+## Dataset:
+The 'movieReplicationSet.csv' dataset contains viewer ratintgs for 400 different movies and their responses to 76 questions about their character. 
 
-Students were asked to respond to the ten questions listed below:
+The rows represent:
+* Row 1: Movie Titles and Questions
+* Row 2 - 1098: Participant Responses
 
+The columns represent:
+* Column 1 - 400: Movies Ratings (0-4)
+* Column 401 - 420: Questions related to Sensation Seeking Behaviors (1-5)
+* Column 421 - 464: Questions related to Personality (1-5)
+* Column 465 - 474: Questions related to Movie Experiences (1-5)
+* Column 475: Gender Identity (1 = female, 2 = male, 3 = self-described)
+* Column 476: Only Child (0 = no, 1 = yes, -1 = no response)
+
+## Questions:
 1) What is the relationship between sensation seeking and movie experience?
 2) Is there evidence of personality types based on the data of these research participants? If so, characterize these types both quantitatively and narratively.
 3) Are movies that are more popular rated higher than movies that are less popular?
