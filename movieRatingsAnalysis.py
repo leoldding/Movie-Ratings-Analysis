@@ -16,8 +16,8 @@ from sklearn.metrics import mean_squared_error
 
 #%% Data Loading
 
-data = np.genfromtxt("movieReplicationSet.csv", delimiter = ',', skip_header = 1)
-headers = np.genfromtxt("movieReplicationSet.csv", delimiter = ',', max_rows = 1, dtype = str)
+data = np.genfromtxt("data/movieReplicationSet.csv", delimiter = ',', skip_header = 1)
+headers = np.genfromtxt("data/movieReplicationSet.csv", delimiter = ',', max_rows = 1, dtype = str)
 
 #%% Question 1 
 
@@ -475,7 +475,6 @@ def multreg(x, y, personality = False, personalityCols = ([]), sensation = False
     regressions = np.array([])
     rsquared = np.array([])
     rmse = np.array([])
-    smallestrmse = 0
     for i in range(len(y[0])):
         predictor, prediction = delAll(x, y[:,i])
         if personality == True:
